@@ -53,10 +53,10 @@
 
 ## 📝 License
 
-Copyright © 2021 [ArogyaMagar Norsang Sherpa](https://github.com/arogyamagar).<br />
+Copyright © 2021 [Arogya Thapa Magar](https://github.com/arogyamagar).<br />
 This project is [MIT](https://github.com/arogyamagar/portfolio/blob/main/LICENSE) licensed.
 ---
 
 **Depoly on your own Netlify Instance**
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/adarshaacharya/adarshaacharya.com.np)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/arogyamagar/arogyamagar.com.np)
