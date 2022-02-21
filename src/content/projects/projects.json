@@ -1,0 +1,21 @@
+[
+  {
+    "title": "OurNews",
+    "repo": "https://github.com/arogyamagar/newsapp-function",
+    "demo": "#",
+    "src": "../../images/project/ournews.png",
+    "description": "A blog application built using MERN stack with features like Log In, User registration, User profile edit, User profile , Blog with CRUD functionalities.",
+    "techs": ["React.js", "News API"]
+  },
+  {
+    "title": "Case Converter",
+    "repo": "https://github.com/arogyamagar/case-converter",
+    "demo": "https://caseconverter.netlify.app/",
+    "src": "../../images/project/caseconverter.png",
+    "description": "A place for reading, writing and sharing short stories and novels with other people.",
+    "techs": ["React.js", "BootStrap 5"]
+  }
+  
+  
+  
+]

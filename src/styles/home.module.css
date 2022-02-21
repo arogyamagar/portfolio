@@ -1,0 +1,256 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+  margin-bottom: 30px;
+}
+.header h1{
+font-weight: 1200;
+font-size: 35px;
+/* padding-top: 10px; */
+/* margin-bottom: 20px; */
+}
+/* .header h3, .header h2 {
+font-weight: 400;
+margin-bottom: 20px;
+} */
+.resume a{
+color: rgb(224, 7, 188);
+border-bottom: 2px dashed rgb(224, 7, 188);
+padding-bottom: 5px;
+}
+.resume a:hover{
+color: rgb(21, 221, 54);
+border-bottom: 2px dashed rgb(21, 221, 54);
+padding-bottom: 5px;
+}
+.header .img{
+width:230px;
+/* width: 100%; */
+align-self: center;
+margin-bottom:20px;
+border-radius:50%;
+border: 3px solid rgb(21, 221, 54);
+}
+.btn {
+display: inline-block;
+background: rgb(224, 7, 188);
+padding: 10px 16px;
+border-radius: 10px;
+margin-top: 20px;
+font-weight: 500;
+}
+.ex-Link{
+color: rgb(224, 7, 188);
+display: inline;
+}
+.ex-Link:hover{
+color: rgb(21, 221, 54);
+}
+.grid1{
+align-self: center;
+/* justify-self: center; */
+}
+.grid1 box-icon{
+fill :rgb(224, 7, 188);
+float: left;
+margin-left: 0;
+margin-right: 10px;
+}
+.grid1 .ex-Link{
+display: flex;
+}
+/* .grid2 box-icon{
+fill:rgb(224, 7, 188);
+margin-left: 10px;
+} */
+box-icon:hover{
+fill: rgb(21, 221, 54);
+}
+.info {
+/* height:auto; 
+width:auto; */
+margin: 10px;
+text-align: justify;
+font-size: 23px;
+}
+.resume{
+margin-top: 30px;
+font-size: 20px;
+}
+/* .tech .tech-grid .tech-hover-eff {
+  transition: transform 0.2s infinite;
+}
+.tech .tech-grid .tech-hover-eff {
+    transform: scale(1.1);
+} */
+.tech h1 {
+font-weight: 400;
+margin-bottom: 20px;
+margin-top: 10%;
+text-align: center;
+}
+.tech{
+display: grid;
+justify-content: center;
+}
+.tech .tech-grid{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-gap: 40px;
+width: 800px;
+margin-top: 50px;
+text-align: center;
+}
+.tech .tech-grid {
+margin-left: auto;
+margin-right: auto;
+}
+.icons{
+margin-top: 5px;
+height: 40px;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media screen and (max-width:1175px) {
+/* .header{
+  width: 650px;
+  grid-row-gap: 10px;
+} */
+.tech .tech-grid{
+  max-width: 700px;
+  grid-gap: 30px;
+}
+}
+@media screen and (max-width:950px) {
+.header{
+  display: grid;
+  grid-template-columns: 1fr;
+  /* max-width: 550px;
+  margin-top: 100px; */
+  justify-content: center;
+  grid-gap: 0;
+  margin-top: 60px;
+}
+.header .info{
+  text-align: center;
+  grid-column: 1/-1;
+}
+.header .img{
+  width: 180px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  grid-column: 1/-1;
+}
+.header h1{
+  text-align: center;
+}
+.header .mails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .anchor1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /** Use this rule if the tag has a parent with specific height */ 
+  height: 100%; 
+}
+.tech .tech-grid{
+  max-width: 650px;
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+@media screen and (max-width:790px) {
+.header{
+  width: 600px;
+  font-size: 14px;
+}
+.tech .tech-grid{
+  width: 600px;
+}
+
+.info{
+  margin: 0px 10px;
+}
+.resume{
+  margin-left: 10px;
+}
+}
+@media screen and (max-width:618px) {
+.header{
+  width: 90%;
+  font-size: 14px;
+}
+.tech .tech-grid{
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-top: 10px;
+}
+.header h1{
+  text-align: center;
+}
+.header .mails{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header .anchor1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /** Use this rule if the tag has a parent with specific height */ 
+  /* height: 100%;  */
+}
+.info{
+  margin: 0px 10px;
+}
+.resume{
+  margin-left: 10px;
+}
+}
+@media screen and (max-width:500px) {
+.header{
+  width: 90%;
+  font-size: 14px;
+  grid-template-columns: 1fr;
+}
+.header .img{
+  width: 150px;
+}
+.header .grid1{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+.header .img{
+  width: 150px;
+}
+.header h1{
+  font-size: 27px;
+}
+.header .ex-Link{
+  font-size: 20px;
+}
+.header .anchor1{
+  display: flex;
+  margin-top: 10px;
+}
+.info{
+  margin: 0px 5px;
+}
+.resume{
+  margin-left: 5px;
+}
+}
