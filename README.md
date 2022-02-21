@@ -1,5 +1,5 @@
 <p align="center">
- <img alt="Logo" src="https://raw.githubusercontent.com/arogyamagar/arogyamagar/main/static/favicon.ico" width="100" />
+ <img alt="Logo" src="https://raw.githubusercontent.com/arogyamagar/portfolio/main/static/favicon.ico" width="100" />
 
  <a href="https://arogyamagar.netlify.app/">
 	<h1 align="center" >ArogyaMagar</h1>
