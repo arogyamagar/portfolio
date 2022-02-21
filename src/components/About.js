@@ -21,7 +21,7 @@ export default function About() {
         </section>
         <div className={info}>
             <p>Hello! I’m Arogya Thapa Magar, frontend developer from Lalitpur Nepal.</p>
-            <p>I'm super passionate about exploring and building open source web apps and tools. Currently I'm diving in the React ecosystem with backend in Node.js.</p>
+            <p>Currently I am working with HTML, CSS and React.js.</p>
             <p>I'm currently pursuing Bachelor Degree in CSIT at <a href="https://tribhuvan-university.edu.np/" target="_blank" className={exLink}  rel="noreferrer">Tribhuvan University</a></p>
         </div> 
         <div className={resume}>
