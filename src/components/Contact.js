@@ -4,7 +4,7 @@ import {contact,item} from '../styles/contact.module.css'
 export default function Contact() {
     return (
         <div className={contact}>
-                <h1>Hello Drop A Message</h1>
+                <h1>Drop A Message</h1>
                 <form 
                 name="contact"
                 method="post"
