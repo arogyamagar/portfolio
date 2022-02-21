@@ -54,7 +54,7 @@
 ## 📝 License
 
 Copyright © 2021 [ArogyaMagar Norsang Sherpa](https://github.com/arogyamagar).<br />
-This project is [MIT](https://github.com/arogyamagar/pembasherpa/blob/main/LICENSE) licensed.
+This project is [MIT](https://github.com/arogyamagar/portfolio/blob/main/LICENSE) licensed.
 ---
 
 **Depoly on your own Netlify Instance**
