@@ -11,13 +11,7 @@
 .header h1{
 font-weight: 1200;
 font-size: 35px;
-/* padding-top: 10px; */
-/* margin-bottom: 20px; */
 }
-/* .header h3, .header h2 {
-font-weight: 400;
-margin-bottom: 20px;
-} */
 .resume a{
 color: rgb(224, 7, 188);
 border-bottom: 2px dashed rgb(224, 7, 188);
@@ -64,16 +58,10 @@ margin-right: 10px;
 .grid1 .ex-Link{
 display: flex;
 }
-/* .grid2 box-icon{
-fill:rgb(224, 7, 188);
-margin-left: 10px;
-} */
 box-icon:hover{
 fill: rgb(21, 221, 54);
 }
 .info {
-/* height:auto; 
-width:auto; */
 margin: 10px;
 text-align: justify;
 font-size: 23px;
@@ -82,12 +70,7 @@ font-size: 23px;
 margin-top: 30px;
 font-size: 20px;
 }
-/* .tech .tech-grid .tech-hover-eff {
-  transition: transform 0.2s infinite;
-}
-.tech .tech-grid .tech-hover-eff {
-    transform: scale(1.1);
-} */
+
 .tech h1 {
 font-weight: 400;
 margin-bottom: 20px;
@@ -118,10 +101,7 @@ margin-right: auto;
 }
 
 @media screen and (max-width:1175px) {
-/* .header{
-  width: 650px;
-  grid-row-gap: 10px;
-} */
+
 .tech .tech-grid{
   max-width: 700px;
   grid-gap: 30px;
@@ -131,8 +111,6 @@ margin-right: auto;
 .header{
   display: grid;
   grid-template-columns: 1fr;
-  /* max-width: 550px;
-  margin-top: 100px; */
   justify-content: center;
   grid-gap: 0;
   margin-top: 60px;
@@ -209,9 +187,8 @@ margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 
-  /** Use this rule if the tag has a parent with specific height */ 
-  /* height: 100%;  */
 }
 .info{
   margin: 0px 10px;
@@ -245,7 +222,7 @@ margin-right: auto;
 }
 .header .anchor1{
   display: flex;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 .info{
   margin: 0px 5px;

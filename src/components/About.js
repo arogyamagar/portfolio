@@ -11,7 +11,7 @@ export default function About() {
             <div className={grid1}>
                 <h1>Arogya Thapa Magar</h1><br/>
                 <div className={mails}>
-                    <box-icon name='mail-send' size='md' color='#bbb'></box-icon><a href="mailto:arogyamagar@gmail.com" className={exLink} style={{fontSize:"24px"}}>arogyamagar@gmail.com</a><br/>
+                    <box-icon name='mail-send' size='md' color='#bbb'></box-icon><a href="mailto:itsarogyamagar@gmail.com" className={exLink} style={{fontSize:"24px"}}>itsarogyamagar@gmail.com</a><br/>
                 </div>
                 <div className={anchor1}>
                     <a href="https://github.com/arogyamagar/" target="_blank" rel="noreferrer" ><box-icon type='logo' name='github' size='md'></box-icon></a>
