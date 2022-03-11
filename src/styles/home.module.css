@@ -178,11 +178,11 @@ margin-right: auto;
 .header h1{
   text-align: center;
 }
-.header .mails{
+/* .header .mails{
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 .header .anchor1{
   display: flex;
   align-items: center;
