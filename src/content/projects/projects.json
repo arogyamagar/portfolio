@@ -18,7 +18,7 @@
   {
     "title": "Encryption Decryption / Chat app",
     "repo": "https://github.com/arogyamagar/File-Encryption-and-Decryption",
-    "demo": "https://drive.google.com/drive/folders/1Eb7ZT2oRqVZ6_-j4xJSjgL4SKAAImoDb",
+    "demo": "https://drive.google.com/file/d/1j4AtfI9ZlFzotn-BCyM5NuFjpm3648dV/view?usp=sharing",
     "src": "../../images/project/chatapp.png",
     "description": "This project encrypt and decrypt the files using AES 256 cbc mode.It has two features i.e encryption /decryption and transfer encrypted file using the chat. login is done with the help of firebase authentication package.This app is developed by three members Arogya Thapa Magar. Sahil Ramjali, Saken Rai",
     "techs": ["Dart", "Flutter"]
