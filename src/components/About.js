@@ -25,7 +25,7 @@ export default function About() {
             <p>I'm currently pursuing Bachelor Degree in CSIT at <a href="https://tribhuvan-university.edu.np/" target="_blank" className={exLink}  rel="noreferrer">Tribhuvan University</a></p>
         </div> 
         <div className={resume}>
-            <a href="https://drive.google.com/file/d/1aoSvKNxgZRVfS11KkffvmBfZGrVnIZVU/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
+            <a href="https://drive.google.com/file/d/1MU7QhZf1AiIkYBlIobfwwAd9TAOEjg0i/view?usp=sharing" target="_blank" rel="noreferrer">View Resume</a>
         </div> 
         </>
     )
