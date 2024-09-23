@@ -1,32 +1,35 @@
 {
-  "name": "personal-site",
-  "version": "1.0.0",
+  "name": "mss",
   "private": true,
-  "description": "Personal-Site",
-  "author": "arogyamagar",
-  "keywords": [
-    "gatsby"
-  ],
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
-    "boxicons": "^2.0.9",
-    "gatsby": "^3.13.1",
-    "gatsby-plugin-image": "^1.14.1",
-    "gatsby-plugin-manifest": "^3.14.0",
-    "gatsby-plugin-mdx": "^2.14.0",
-    "gatsby-plugin-sharp": "^3.14.1",
-    "gatsby-source-filesystem": "^3.14.0",
-    "gatsby-transformer-json": "^3.14.0",
-    "gatsby-transformer-sharp": "^3.14.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^6.1.1",
+    "@mui/material": "^6.1.1",
+    "@mui/styled-engine-sc": "^6.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "styled-components": "^6.1.13",
+    "uniqid": "^5.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "vite": "^5.4.1"
   }
 }
