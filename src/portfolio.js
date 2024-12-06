@@ -9,7 +9,7 @@ const about = {
   description:
     "With nearly 3 years of experience as a Quality Assurance Engineer specializing in Playwright automation, I excel in developing comprehensive test plans, proficient in JavaScript and TypeScript for robust test scripting, and am committed to enhancing product reliability through early issue identification, continuous learning, and collaboration to deliver high-quality software solutions.",
   resume:
-    "https://drive.google.com/file/d/15ZTQ4ofc2oa-H4Ga41gD7ydy1w5POFPE/view?usp=sharing",
+    "https://drive.google.com/file/d/1N9nDRB267KuWAq0cwoqrIq_oa7zsqEXM/view?usp=sharing",
   social: {
     linkedin: "https://linkedin.com/in/arogyamagar",
     github: "https://github.com/arogyamagar",
